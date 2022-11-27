@@ -6,7 +6,7 @@ if (a>99)
     {
         a = a/10;
     }
-    a = (a/10)%10;
-    Console.WriteLine(a);
+    int num = a%10;
+    Console.WriteLine($"Третья цифра - {num}");
 }
 else Console.WriteLine("Третьей цифры нет");
