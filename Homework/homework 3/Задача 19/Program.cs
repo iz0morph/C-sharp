@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите пятизначное число - ");
 int a = Convert.ToInt32(Console.ReadLine());
-while (a<10000)
+while (Math.Abs(a)>99999 || Math.Abs(a)<10000)
 {
     Console.WriteLine("Ошибка. Введите пятизначное число - ");
     a = Convert.ToInt32(Console.ReadLine());
