@@ -7,8 +7,6 @@
         index++;
     }
 }
-
-
 void PrintArray(int[] col, int n)
 {
     int count=n;

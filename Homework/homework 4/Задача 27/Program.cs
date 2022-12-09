@@ -9,7 +9,6 @@
         a = a / 10;
     }
     Console.WriteLine(b);
-
 }
 Console.WriteLine("Введите число - ");
 int x = Convert.ToInt32(Console.ReadLine());
